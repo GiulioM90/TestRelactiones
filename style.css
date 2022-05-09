@@ -1,0 +1,165 @@
+@import url("reset.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
+.main-container{
+    background-color: rgba(206, 201, 201, 0.652);
+    
+}
+.section-link{
+    color: black;
+    border-bottom: 2px solid rgb(158, 132, 98);
+}
+
+.tablet-view{
+    background-image: linear-gradient(90deg, #B2A2CD 25%, #5f537000 25%, #5f537000 50%, #B2A2CD 50%, #B2A2CD 75%, #5f537000 75%, #5f537000 100%);
+    background-size: 160.00px 160.00px;
+}
+.desktop-view{
+    background-image: linear-gradient(90deg, #c7c8cf71 25%, #cccccc00 25%, #cccccc00 50%, #c7c8cf71 50%, #c7c8cf71 75%, #cccccc00 75%, #cccccc00 100%);
+    background-size: 160.00px 160.00px;
+    
+}
+/* Small only */
+@media screen and (max-width: 652px) {
+    .my-header-container{
+        background: url('./Links/21zerla.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 500px;
+    }
+    .logo-cliente{
+        border: 1px white solid;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+    }
+    .hamb-menu img{
+        width: 90px;
+        height: 50px;
+    }
+    .img-container{
+        height: 500px;
+        display: flex;
+        justify-content: center;
+    }
+    .first-img{
+        height: 500px;
+    }
+    .para-footer{
+        font-size: 13px;
+    }
+    .para-footer p
+    {
+        margin-bottom: 10px;
+    }
+    .social-icon{
+        color: rgb(165, 93, 42);
+    }
+    .para-footer-rights{
+        font-size: 10px;
+    }
+    .para-section{
+        font-size: 20px;
+    }
+
+}
+
+/* Medium and up */
+@media screen and (min-width: 653px) {
+
+    .my-header-container{
+        position: relative;
+        background: url('./Links/21zerla.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+
+    }
+    .logo-cliente{
+        border: 1px white solid;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+    }
+    .hamb-menu img{
+        width: 90px;
+        height: 50px;
+    }
+    .para-for-border{
+        border-right: 1px solid;
+        line-height: 35px;
+        border-left: 1px solid;
+    }
+    .para-header{
+        width: 48%;
+        font-size: 26px;
+    }
+    .container-numbers{
+        margin-top: 60px;
+    }
+  
+    .para-logo-partner{
+        border: solid 2px rgba(7, 54, 31, 0.54);
+        padding: 10px 15px;
+        margin-bottom: 0;
+        justify-content: center;
+        text-align: center;
+        color: rgba(7, 54, 31, 0.54);
+        font-size: 16px;
+    }
+    .para-footer{
+        font-size: 13px;
+    }
+    .para-footer p
+    {
+        margin-bottom: 10px;
+    }
+    .img-divider{
+        width: 100%;
+        max-height: 600px;
+    }
+    .social-icon{
+        color: rgb(165, 93, 42);
+    }
+    .footer-1section-container{
+        width: 100%;
+    }
+    .footer-1section-content-container{
+        width: 100%;
+    }
+    .logo-footer{
+        border: 1px white solid;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+    }
+
+
+}
+
+/* Large and up */
+@media screen and (min-width: 992px) {
+    .my-header-container{
+        position: relative;
+        background: url('./Links/21zerla.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+    }
+    .para-section{
+        width: 75%;
+    }
+    .img-divider{
+        width: 100%;
+        max-height: 600px;
+    }
+}
