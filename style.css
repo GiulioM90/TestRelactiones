@@ -25,6 +25,7 @@
     position: relative;
     opacity: 0.8;
   }
+
 /* Small only */
 @media screen and (max-width: 652px) {
     .my-header-container{

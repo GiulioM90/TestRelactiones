@@ -42,7 +42,13 @@
   a{
     text-decoration: none;
     color: none;
+    transition: all ease 0.5s;
   }
+
+a:hover{
+    color: rgba(0, 0, 0, 0.571);
+
+}
   h1 {
     font-size: 2em;
     margin: 0.67em 0;
