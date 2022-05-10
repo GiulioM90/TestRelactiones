@@ -34,7 +34,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         width: 100%;
-        height: 500px;
+        height: 100vh;
     }
     .logo-cliente{
         border: 1px white solid;
@@ -76,7 +76,7 @@
 
 /* Medium and up */
 @media screen and (min-width: 653px) {
-
+    
     .my-header-container{
         position: relative;
         background: url('./Links/21zerla.jpg');

@@ -4,6 +4,9 @@ if($(window).width() < 652){
 }
 if($(window).width() > 653 &&  $(window).width() < 991){
     $( "#where" ).load( "./Views/tabletindex.html", function (){
+        $('#firstSection').load("./Views/Components/first-section.html");
+        $('#secondSection').load("./Views/Components/second-section.html");
+        $('#forthSection').load("./Views/Components/forth-section.html");
         $(document).ready(function($) {
             $(".slick-carousel").slick({
                 arrows: false,
@@ -12,11 +15,14 @@ if($(window).width() > 653 &&  $(window).width() < 991){
                 speed: 1500,
                 fade: true,
             });
-            })
+        })
     });
 }
 if($(window).width() >= 992 ){
     $( "#where" ).load( "./Views/desktopindex.html", function (){
+        $('#firstSection').load("./Views/Components/first-section.html");
+        $('#secondSection').load("./Views/Components/second-section.html");
+        $('#forthSection').load("./Views/Components/forth-section.html");
         $(document).ready(function($) {
             $(".slick-carousel").slick({
                 arrows: false,
