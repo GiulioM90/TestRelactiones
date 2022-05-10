@@ -19,6 +19,12 @@
     background-size: 160.00px 160.00px;
     
 }
+.slick-carousel {
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    opacity: 0.8;
+  }
 /* Small only */
 @media screen and (max-width: 652px) {
     .my-header-container{
@@ -79,7 +85,26 @@
         width: 100%;
         height: 100vh;
         opacity: 0.8;
-
+    }
+    .my-header-container1{
+        position: relative;
+        background: linear-gradient(#09300861, #05254578),url('./Links/lago14_zerla.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+        opacity: 0.8;
+    }
+    .my-header-container2{
+        position: relative;
+        background: linear-gradient(#09300861, #05254578),url('./Links/img-divider.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+        opacity: 0.8;
     }
     .main-container{
         opacity: 0.8;
@@ -191,12 +216,7 @@
         max-height: 650px;
     }
     /* Defines the width of the carousel and centers it on the page */
-.slick-carousel {
-    margin: 0 auto;
-    width: 100%;
-    position: relative;
-    opacity: 0.8;
-  }
+
   
 
 
